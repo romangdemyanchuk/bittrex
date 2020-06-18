@@ -1,0 +1,396 @@
+body {
+    font-family: 'Arial', serif;
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 0 3%;
+    width: 94%;
+}
+.header-logo img {
+    height: 30px;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.header-menu {
+    display: flex;
+    /*padding-top: 5px;*/
+}
+.header-menu li {
+    margin-right: 15px;
+    font-size: 15px;
+    transition: .3s ease;
+}
+.header-menu li:hover {
+    color: blue;
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}
+.fa-wifi:before {
+    color: green;
+}
+.connection-info {
+    display: flex;
+    margin-left: 40px;
+}
+.MuiPagination-root {
+    background-color: darkslategray !important;
+    border: none !important;
+}
+.MuiPagination-ul {
+    justify-content: flex-end;
+    padding: 15px 0 20px 0 !important;
+    border-bottom: 1px solid darkgrey !important;
+}
+.MuiPaginationItem-page.Mui-selected {
+    border: 1px solid !important;
+}
+.MuiPaginationItem-root {
+    color: #fff !important;
+    border-radius: 5px !important;
+}
+.markets-info {
+    text-align: left !important;
+    padding-left: 8px;
+}
+.connection-text {
+    margin: 1px 0 0 5px;
+    font-size: 13px;
+}
+.header-left-part {
+    display: flex;
+    align-items: center;
+}
+.header-right-part {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.header-block {
+    background-color: #000;
+    color: #fff;
+    z-index: 50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+}
+.intro-block-img img {
+    height: 100px;
+}
+.intro-block {
+    background-color: dodgerblue;
+    margin-top: 77px;
+}
+.intro-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+}
+.intro-heading {
+    font-size: 40px;
+}
+.price-wrapper,
+.volume-wrapper {
+    display: flex;
+}
+.intro-last-text,
+.intro-volume-text {
+    margin-right: 40px;
+}
+.last-price,
+.volume-from-last-day {
+    margin-left: auto;
+}
+.intro-last-info-wrapper {
+    font-size: 21px;
+}
+.block {
+    display: flex;
+    width: 25%;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+.block:first-child,
+.block:last-child {
+    border: none;
+}
+.block:nth-last-child {
+    border-right: none !important;
+}
+.block-img img {
+    height: 60px;
+}
+.block-content-wrapper {
+    display: flex;
+    /*align-items: center;*/
+
+}
+.main-info {
+    background-color: darkslategray;
+    border-bottom: 1px solid grey;
+}
+.block-text-wrapper {
+    text-align: right;
+    margin-left: 15px;
+}
+.block-subtitle {
+    color: darkgrey;
+    font-weight: 700;
+    font-size: 14px;
+}
+.block-title {
+    color: darkgrey;
+    margin: 8px 0;
+    font-size: 18px;
+}
+.block-price {
+    font-weight: 700;
+}
+.block-growth-wrapper-value {
+    font-size: 15px;
+    color: red;
+    margin-top: 5px;
+}
+.details {
+    background-color: darkslategray;
+    padding: 40px 0 15px 0;
+}
+.details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.details-text-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.details-header-volume {
+    margin-left: 35px;
+    color: darkgray;
+    font-size: 13px;
+}
+.details-header-name {
+    color: darkgray;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.details-input {
+    background-color: darkgray;
+    border: none;
+    padding: 9px 11px;
+    width: 200px;
+    border-radius: 5px;
+    font-style: italic;
+    color: grey;
+}
+.fields-name {
+    font-weight: 800;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.fields-name,
+.field-info {
+    display: flex;
+    justify-content: space-between;
+}
+.field-name {
+    text-transform: uppercase;
+    color: lightgrey;
+    font-size: 14px;
+    width: 130px;
+    text-align: center;
+}
+.details-strip {
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+}
+.field-name>div {
+    margin: 8px 0;
+}
+.MuiInputBase-input {
+    border: 1px solid !important;
+    padding-left: 5px !important;
+    font-style: italic !important;
+    color: lightgray !important;
+    background-color: grey !important;
+    border-radius: 5px !important;
+    border-color: transparent !important;
+    font-size: 13px !important;
+}
+.header-btn {
+    display: none;
+}
+.footer {
+    background-color: #000;
+    color: darkgray;
+    padding: 30px 0;
+}
+.footer-wrapper {
+    padding: 0 10%;
+}
+.footer-first-line,
+.footer-second-line {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-second-line {
+    margin: 20px 0 30px 0;
+}
+.footer-first-line>div,
+.footer-second-line>div {
+    font-size: 13px;
+    width: 115px;
+}
+.footer-twitter,
+.footer-facebook {
+    display: flex;
+    width: 145px !important;
+    transition: .5s ease;
+}
+.twitter-icon:hover,
+.facebook-icon:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+.twitter-text,
+.facebook-text {
+    margin-left: 8px;
+}
+.footer-last-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+@media screen and (max-width: 1240px) {
+    .spread,
+    .spread-info,
+    .added,
+    .added-info{
+        display: none;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .footer-first-line,
+    .footer-second-line {
+        display: block;
+        margin: 0 15px;
+    }
+    .footer-line-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-last-text {
+        margin-top: 15px;
+    }
+
+}
+@media screen and (max-width: 950px) {
+    .intro-block,
+    .main-info {
+        display: none;
+    }
+    .header-right-part {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 45px;
+        background-color: grey;
+        padding: 20px 50px;
+        z-index: 10;
+    }
+    .flask-icon {
+        display: none;
+    }
+    .header-menu {
+        padding: 0;
+    }
+    .header-btn {
+        display: block;
+        margin-top: 2px;
+        font-size: 25px;
+    }
+    .header-menu {
+        display: block !important;
+    }
+    .header-menu li {
+        margin: 15px 0;
+        /*padding-right: 20px;*/
+        font-size: 25px;
+    }
+    .flask-icon {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 840px) {
+    .low,
+    .low-info,
+    .high,
+    .high-info,
+    .currency,
+    .currency-info{
+        display: none;
+    }
+}
+@media screen and (max-width: 580px) {
+    .details-header {
+        display: block;
+    }
+    .details-text-wrapper {
+        display: block;
+        text-align: center;
+    }
+    .details-header-volume {
+        margin: 15px 0;
+    }
+    form {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .change-info {
+        width: 105px;
+    }
+    .volume-info,
+    .volume {
+        display: none;
+    }
+    .price-info,
+    .price{
+        text-align: right;
+        width: 80px;
+    }
+    .markets-info,
+    .markets{
+        text-align: left;
+        width: 100px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .footer-line-wrapper {
+        display: block;
+    }
+    .footer-first-line>div,
+    .footer-second-line>div {
+        margin: 8px 0;
+    }
+    .MuiPaginationItem-root {
+        margin: 0 1px !important;
+    }
+}
